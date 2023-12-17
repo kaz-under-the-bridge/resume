@@ -1,4 +1,4 @@
-name: release pdf on merge to main branch
+name: PDF
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: release pdf
+    name: draft release for pdf
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
