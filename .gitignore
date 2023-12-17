@@ -14,3 +14,6 @@ Thumbs.db
 node_modules
 npm-debug.log
 .cache
+
+# assets
+docs/resume.pdf
