@@ -7,7 +7,7 @@
 ## ファイル
 
 - [経歴書 Markdown](https://github.com/kaz-under-the-bridge/resume/blob/main/docs/README.md)
-- [Github Pages](https://github.com/kaz-under-the-bridge/resume#:~:text=kaz%2Dunder%2Dthe%2Dbridge.github.io/resume/)
+- [GitHub Pages](https://github.com/kaz-under-the-bridge/resume#:~:text=kaz%2Dunder%2Dthe%2Dbridge.github.io/resume/)
 - [PDF](https://github.com/kaz-under-the-bridge/resume/releases)
 
 ## ローカルでの変更と確認
