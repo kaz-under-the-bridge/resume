@@ -1,0 +1,33 @@
+name: release pdf on merge to main branch
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - docs/resume.md
+
+jobs:
+  build:
+    name: release pdf
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+      - run: npm install
+      - name: call build pdf
+        run: npm run build:pdf
+      - name: create draft
+        uses: softprops/action-gh-release@v1
+        with:
+          body: ${{ github.event.pull_request.title }}
+          draft: true
+          fail_on_unmatched_files: true
+          files: docs/resume.pdf
+          name: Release ${{ github.ref }}

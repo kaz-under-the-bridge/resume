@@ -1,0 +1,23 @@
+name: markdown lint on pull request
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - docs/resume.md
+      - README.md
+
+jobs:
+  markdown_lint:
+    name: lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+      - run: npm install
+      - run: npm run lint
