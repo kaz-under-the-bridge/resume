@@ -1,8 +1,8 @@
 # 職務経歴書
 
-[![markdown lint](https://github.com/kaz-under-the-bridge/resume/actions/workflows/lint.yaml/baqdge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/lint.yaml)
-[![PDF](https://github.com/kaz-under-the-bridge/resume/actions/workflows/release.yaml/baqdge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/release.yaml)
-[![pages-build-deploymen](https://github.com/kaz-under-the-bridge/resume/actions/workflows/pages/pages-build-deployment/baqdge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/pages/pages-build-deployment)
+[![markdown lint](https://github.com/kaz-under-the-bridge/resume/actions/workflows/lint.yaml/badge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/lint.yaml)
+[![PDF](https://github.com/kaz-under-the-bridge/resume/actions/workflows/release.yaml/badge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/release.yaml)
+[![pages-build-deploymen](https://github.com/kaz-under-the-bridge/resume/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/pages/pages-build-deployment)
 
 ## ファイル
 

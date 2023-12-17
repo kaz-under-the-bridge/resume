@@ -1,4 +1,4 @@
-name: markdown lint on pull request
+name: Markdown lint
 
 on:
   pull_request:
