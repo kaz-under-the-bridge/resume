@@ -187,12 +187,12 @@
 
 時系列順で記載しています。
 
-### ブログ寄稿(Obserbability製品とSLI/SLOについて)
+### ブログ寄稿(Observability製品とSLI/SLOについて)
 
 - [しんどくないSLI/SLOプラクティスをNew Relicで？](https://blog.jp.square-enix.com/iteng-blog/posts/00069-effortless-sli-slo-with-newrelic/)
-- Obserbabilityは難しくいろんなプロダクトやソリューションがあるが何のために何をするのかが分からなくなりがち
+- Observabilityは難しくいろんなプロダクトやソリューションがあるが何のために何をするのかが分からなくなりがち
+- 伝統的な監視やSLI/SLOの維持そのものが目的ではなくあくまで手段であるが、その手段が重すぎないか？
 - 今一度、何のためにするのか、何を得たいのかを整理した記事です
-- 伝統的な監視がやりたいのはない。という気づきも交えて書いています
 
 ### Platform Engineering採用
 
@@ -203,7 +203,7 @@
 ### SRE Next登壇
 
 - Sysdig社スポンサードでコンテナセキュリティ・脆弱性対策の内容で登壇
-- [イベントサイト](ttps://sre-next.dev/2023/schedule/#sp004)
+- [イベントサイト](https://sre-next.dev/2023/schedule/#sp004)
 
 ### Cloud Operator Days Tokyo 2023登壇
 
