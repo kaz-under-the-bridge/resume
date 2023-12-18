@@ -188,6 +188,7 @@
 時系列順で記載しています。
 
 ### ブログ寄稿(Obserbability製品とSLI/SLOについて)
+
 - [しんどくないSLI/SLOプラクティスをNew Relicで？](https://blog.jp.square-enix.com/iteng-blog/posts/00069-effortless-sli-slo-with-newrelic/)
 - Obserbabilityは難しくいろんなプロダクトやソリューションがあるが何のために何をするのかが分からなくなりがち
 - 今一度、何のためにするのか、何を得たいのかを整理した記事です
