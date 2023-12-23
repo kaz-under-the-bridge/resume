@@ -29,7 +29,7 @@
 | 居住地 | 神奈川県 - 新宿まで電車で70分ほど |
 | 出身 | 関西 - 奈良県 |
 | 最終学歴 | 関西学院大学 文学部 心理学科 (2002学士卒) |
-| GitHub | [@kaz-under-the-bridge](https://github.com/kaz-under-the-bridge) <br/> **仕事用にアカウントを作り直した為今はリポジトリは充実していません** |
+| GitHub | [@kaz-under-the-bridge](https://github.com/kaz-under-the-bridge) <br/> **アカウント作り直しで本レジュメ以外空です。過去コードを整理中** |
 | Twitter | [@hshmtkzhr](https://twitter.com/hshmtkzhr) |
 | LinkedIn | [@sqex-kaz](https://www.linkedin.com/in/sqex-kaz/) |
 
