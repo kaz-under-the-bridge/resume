@@ -2,22 +2,26 @@
 
 ## 自己紹介
 
-- 現在株式会社スクウェア・エニックスでSREチームリードをしています
-  - 現在、副業での支援先を探しています。まずはカジュアルにお話できると幸いです
+- 現在株式会社スクウェア・エニックスでSREチームリード/DevSecOpsの推進をしています
+  - また副業（フリーランス）として業務支援をしています
 - インフラ領域をメインとしたエンジニアです
-  - ネットワークエンジニア → サーバインフラエンジニア → クラウドエンジニア(SRE)
+  - ネットワークエンジニア → サーバインフラエンジニア → クラウドエンジニア(SRE) → プラットフォームエンジニアリング・セキュリティ
 - "ヒト・モノ・カネ"の最大化を通じて企業活動に最大限の価値を提供します
   - 普段はチームをマネジメントしながら自分も手を動かすリードエンジニアの動きを好みます
 - 現在は次の領域を業務の中心・得意分野にしています
-  - クラウドネイティブ
-  - コンテナ/kubernetes
-  - Lift&Shift, クラウドマイグレーション
-  - クラウドセキュリティ/コンテナセキュリティ
-  - Infrastructure as Code(IaC)
-  - Site Reliability Engineering(SRE)
-  - Observability
-  - 採用・チームビルド
-  - コミュニティ活動等を通じた組織ブランディング
+  - 概念
+    - クラウドネイティブ
+    - Site Reliability Engineering(SRE)
+    - プラットフォームエンジニアリング
+    - Observability
+  - 技術/スキル/プロダクト
+    - クラウドセキュリティ/コンテナセキュリティ
+    - コンテナ/kubernetes
+    - Lift&Shift, クラウドマイグレーション
+    - Infrastructure as Code(IaC)
+  - 人/組織
+    - 採用・チームビルド
+    - コミュニティ活動等を通じた組織ブランディング
 
 ## プロフィール
 
@@ -29,9 +33,9 @@
 | 居住地 | 神奈川県 - 新宿まで電車で70分ほど |
 | 出身 | 関西 - 奈良県 |
 | 最終学歴 | 関西学院大学 文学部 心理学科 (2002学士卒) |
-| GitHub | [@kaz-under-the-bridge](https://github.com/kaz-under-the-bridge) <br/> 主なポートフォリオを [このリポジトリ](https://github.com/kaz-under-the-bridge/mock-alert-notifier) に集約中 |
+| GitHub | [@kaz-under-the-bridge](https://github.com/kaz-under-the-bridge) |
 | Twitter | [@hshmtkzhr](https://twitter.com/hshmtkzhr) |
-| LinkedIn | [@sqex-kaz](https://www.linkedin.com/in/sqex-kaz/) |
+| LinkedIn | [@kaz-under-the-bridge](https://www.linkedin.com/in/kaz-under-the-bridge/) |
 
 ### 主なスキル
 
@@ -76,8 +80,6 @@
 
 ### その他
 
-- コミュニティ運営
-  - [Observability（O11y）分科会](https://jaguer.jp/workinggroup/)
 - ブログ執筆
   - [スクエニITエンジニアブログ](https://blog.jp.square-enix.com/iteng-blog/authors/kaz-hashimoto/)
 - 外部登壇
@@ -91,7 +93,8 @@
   - ArgoCD
 - サーバ・ミドルウェア
   - Ubuntu / Debian
-  - GKE / GCE / その他クラウドマネージドサービス
+  - GKE / GCE / Cloud Run, etc
+  - AWS / EC2 / ECS / Lambda, etc
   - MySQL
   - Kafka
   - Redis / Memcached
@@ -105,9 +108,12 @@
   - Helm
 - コミュニケーション
   - Slack / Zoom
+  - Notion
   - Atlassian Confluence / Jira
   - Google Workdpace(管理者)
 - 監視・モニタリング
+  - Sysdig / Falco
+  - Wireshark / tcpdump
   - Prometheus / Grafana
   - PagerDuty
   - New Relic
@@ -120,6 +126,7 @@
 
 | 会社 | ロール / ポジション | 期間 | 主な業務/経験 |
 | :--- | :--- | :--- | :--- |
+| フリーランス | IT Specialist, Platform Engineering<br>DevSecOps Architect | 2024/05<br/>〜 現在 | - クラウドエンジニアリング支援(IaC, Lift&Shift)<br> - セキュリティオブザバビリティ向上支援 |
 | 株式会社<br/>スクウェア・エニックス<br/>(現職) | SRE<br/>チームリード | 2021/01<br/>〜 現在 | - クラウドマイグレーション<br/> - Kubernetes化/Shift&Lift<br/> - クラウド/コンテナセキュリティ<br/> - SRE採用/チームビルド |
 | | Global Infra. Engineer<br/> for Online Gaming | 2020/01<br/>〜 2020/12 | - グローバゲームインフラ基盤運用(Follow The Sun) |
 | 株式会社<br/>コロプラ | SRE | 2018/11<br/>〜 2019/12 | - 既存ゲームインフラでのSLI/SLO実装 |
@@ -129,6 +136,18 @@
 | エス・アンド・アイ<br/>株式会社 | ネットワーク<br/>エンジニア/リーダー | 2002/04<br/>〜 2007/09 | - インターネットサイト構築・運用など<br/> - プロジェクトマネジメント |
 
 ### 詳細
+
+#### フリーランス(現職)
+
+- 本業は企業でエンジニアとして就労しつつ副業で業務支援をしています
+- 自身の過去＾の経験を通じて、多くの会社組織で次のような課題が通底した課題としてあることを実感しました
+  - クラウドネイティブなシステム設計や運用ノウハウの不足。不足を補うための人材採用の苦戦
+  - クラウドネイティブなセキュリティ対策に対するノウハウの不足。セキュリティ対策ができているかどうかの客観的な判断が難しい
+- これらの課題に対して次のようなアプローチで様々な会社組織において価値貢献ができると信じています
+  - IaCを軸としたDevOpsフローの構築
+  - セキュリティオブザバビリティの向上
+  - 可視化されたセキュリティ脅威を評価し対策し続ける運用構築をし、DevOpsと融合させて"DevSecOps"へ昇華させる
+  - それらを継続的に遂行しビジネスを加速させるプラットフォームエンジニアリング・DevSecOpsを行う組織ブランディング
 
 #### 株式会社スクウェア・エニックス(現職)
 
