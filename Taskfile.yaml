@@ -1,0 +1,16 @@
+version: 3
+
+vars:
+  new_tag_ver:
+    sh: git tag -l | tail -n 1 | awk -F. '{print $1"."$2"."$3+1}'
+  today:
+    sh: date '+%Y-%m-%d'
+
+tasks:
+  default:
+    desc: "update version"
+    cmds:
+      - npm run lint
+      - git add . && git commit -m "update resume {{.today}}"
+      - git tag -a {{.new_tag_ver}} -m 'update resume'
+      - git push origin HEAD --tags
