@@ -10,10 +10,20 @@
 - [GitHub Pages](https://github.com/kaz-under-the-bridge/resume#:~:text=kaz%2Dunder%2Dthe%2Dbridge.github.io/resume/)
 - [PDF](https://github.com/kaz-under-the-bridge/resume/releases)
 
-## ローカルでの変更と確認
+## セットアップ
+
+- go task(task runner)のinstall
+[参照](https://taskfile.dev/installation/)
+
+- 周辺ツールのインストール
 
 ```bash
-npm install  
-npm run lint # markdown lint
-npm run build:pdf # pdf生成
+cd /$project_root
+task install_tools
+```
+
+## 編集したら
+
+```bash
+task # defaultはlinterのlocal実行と、tag versionを生成してremoteへコードとtagをpushする
 ```
