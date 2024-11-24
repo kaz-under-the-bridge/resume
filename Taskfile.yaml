@@ -7,6 +7,13 @@ vars:
     sh: date '+%Y-%m-%d'
 
 tasks:
+  install_tools:
+    desc: "install tools"
+    cmds:
+      - npm install
+      - npm run lint # markdown lint
+      - npm run build:pdf # pdf生成
+
   default:
     desc: "update version"
     cmds:
