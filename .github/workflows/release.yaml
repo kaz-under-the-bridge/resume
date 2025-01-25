@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: draft release for pdf
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04 # build:pdfが24.04のapparmor(ubuntu)で実行不可なため修正がされるまで22.04で固定する
     timeout-minutes: 10
     permissions:
       contents: write
