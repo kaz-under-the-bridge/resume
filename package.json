@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "textlint . && markdownlint *.md **/*.md",
-    "build:pdf": "node ./node_modules/.bin/md-to-pdf docs/README.md --config-file ./pdf/config.js"
+    "build:pdf": "PUPPETEER_ARGS='--no-sandbox' node ./node_modules/.bin/md-to-pdf docs/README.md --config-file ./pdf/config.js"
   },
   "keywords": [],
   "author": "",
