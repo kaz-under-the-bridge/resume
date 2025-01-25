@@ -248,6 +248,14 @@ CTO業務そのものを担うことは工数的に難しいですが、イン�
 
 時系列順で記載しています。
 
+### findy toolsへの寄稿: アーキテクチャ大喜利
+
+- [アーキテクチャ大喜利 「もし、⚪︎⚪︎な仕様のサービスを立ち上げるなら、あなたはどんなアーキテクチャを組みますか？」著名企業のエンジニアに聞いた](https://findy-tools.io/articles/architecture-ogiri/33)
+
+### findy toolsのセキュリティイベント登壇
+
+- [実例から学ぶセキュリティ監視](https://findy-tools.io/events/dcffdf68ccb328b6717d)
+
 ### ビルドアップしたSREチームのインタビュー記事(その2)
 
 - [現場社員が語る！全ての人が快適に利用できるシステム作りを目指すスクエニSREチームの今とこれから](https://www.jp.square-enix.com/recruit/career/work_life_story/2024/03/sre-1.html)
