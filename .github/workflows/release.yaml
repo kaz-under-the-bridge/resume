@@ -26,7 +26,7 @@ jobs:
       - name: call build pdf
         run: npm run build:pdf
       - name: create draft
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           body: ${{ github.event.pull_request.title }}
           draft: true
