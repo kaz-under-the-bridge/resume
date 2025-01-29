@@ -107,6 +107,7 @@ CTO業務そのものを担うことは工数的に難しいですが、イン�
 
 - ブログ執筆
   - [スクエニITエンジニアブログ](https://blog.jp.square-enix.com/iteng-blog/authors/kaz-hashimoto/)
+  - [タイミーProductTeamBlog](https://tech.timee.co.jp/)
 - 外部登壇
   - 後述の活動・実績に記載
 
@@ -255,6 +256,10 @@ CTO業務そのものを担うことは工数的に難しいですが、イン�
 ### findy toolsのセキュリティイベント登壇
 
 - [実例から学ぶセキュリティ監視](https://findy-tools.io/events/dcffdf68ccb328b6717d)
+
+### ブログ記事: Aurora MySQLを安心してアップグレードするための手法検討
+
+- [Aurora MySQLのアップグレード後ロールバック方法を検討してみた](https://tech.timee.co.jp/entry/2024/09/17/100000)
 
 ### ビルドアップしたSREチームのインタビュー記事(その2)
 
