@@ -1,0 +1,93 @@
+[profile admin]
+role_arn = arn:aws:iam::113097031376:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile timee-jp-prod]
+role_arn = arn:aws:iam::030528413947:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile timee-jp-stg]
+role_arn = arn:aws:iam::671093657255:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile timee-jp-operation]
+role_arn = arn:aws:iam::838773035411:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile travel-jp-prod]
+role_arn = arn:aws:iam::340162507736:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile travel-jp-stg]
+role_arn = arn:aws:iam::514151271590:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile data-prod]
+role_arn = arn:aws:iam::698261098055:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile data-stg]
+role_arn = arn:aws:iam::312698029437:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile timee-network-hub]
+role_arn = arn:aws:iam::858033437520:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile cs-jp-operation]
+role_arn = arn:aws:iam::828979161672:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile corp-timee-static-pages-prod]
+role_arn = arn:aws:iam::603109696047:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile corp-timee-static-pages-stg]
+role_arn = arn:aws:iam::450112877394:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile sandbox]
+role_arn = arn:aws:iam::045063972995:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile security]
+role_arn = arn:aws:iam::533267452662:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile dummy]
+region = ap-northeast-1
+output = json
+
+[profile timee-payments-stg]
+role_arn = arn:aws:iam::590183839658:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile timee-payments-prod]
+role_arn = arn:aws:iam::339712938728:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile delivery-jp-prod]
+role_arn = arn:aws:iam::066103510809:role/administrator
+source_profile = saml
+region = ap-northeast-1
+
+[profile delivery-jp-stg]
+role_arn = arn:aws:iam::662062443430:role/administrator
+source_profile = saml
+region = ap-northeast-1
