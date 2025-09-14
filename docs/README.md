@@ -161,7 +161,7 @@ CTO業務そのものを担うことは工数的に難しいですが、イン�
   - Redis / Memcached
   - Nginx / Apache / Ruby On Rails / Flask
   - fluentd / fluent-bit
-  - ElasticSearch, Kibana, BigQuery
+  - Elasticsearch, Kibana, BigQuery
 - IaC
   - Terraform
   - Ansible
