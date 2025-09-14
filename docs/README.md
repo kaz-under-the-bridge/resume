@@ -302,10 +302,21 @@ CTO業務そのものを担うことは工数的に難しいですが、イン�
 
 時系列順で記載しています。
 
+### SRE Next 22025
+
+- [スタートアップでのSRE実践](https://sre-next.dev/2025/schedule/#slot048)
+
+### ブログ記事: AI x PlatformEngineeringへの取り組み(立志編)
+
+[AI x PlatformEngineeringへの取り組み(立志編)](https://tech.timee.co.jp/entry/2025/06/19/175857)
+
+### インタビュー記事(自社オウンドメディア)
+
+[優秀なメンバーと共に成長するマネージャー像とは──タイミーGMが語る“支える”リーダーシップの実践](https://productpr.timee.co.jp/n/n3408bc520ca8)
+
 ### イベント登壇: UV Study: Platform Engineeringの始め方
 
 - [この道四半世紀のインフラエンジニアが タイミーのPFEチームにJOINした体験談](https://speakerdeck.com/kazutb/konodao-si-ban-shi-ji-noinhuraenziniaga-taiminopfetimunijoinsitati-yan-tan)
-- [イベントURL](https://uniquevision.connpass.com/event/350834)
 
 ### findy toolsへの寄稿: アーキテクチャ大喜利
 
