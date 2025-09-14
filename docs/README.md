@@ -302,7 +302,7 @@ CTO業務そのものを担うことは工数的に難しいですが、イン�
 
 時系列順で記載しています。
 
-### SRE Next 22025
+### SRE Next 2025
 
 - [スタートアップでのSRE実践](https://sre-next.dev/2025/schedule/#slot048)
 
