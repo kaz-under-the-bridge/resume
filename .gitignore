@@ -1,21 +1,12 @@
-# General
-.DS_Store
-Thumbs.db
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+Gemfile.lock
 
-# Visual Studio Code
-.history/*
-.vscode/*
-!.vscode/extensions.json
-!.vscode/launch.json
-!.vscode/settings.json
-!.vscode/tasks.json
+node_modules/
+.cache/
 
-# Node
-node_modules
-npm-debug.log
-.cache
-
-# assets
-docs/resume.pdf
-
-README.pdf
+docs/tmp

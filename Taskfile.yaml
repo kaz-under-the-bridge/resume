@@ -14,6 +14,18 @@ tasks:
       - npm run lint # markdown lint
       - npm run build:pdf # pdf生成
 
+  serve:
+    desc: "start jekyll server for local preview"
+    dir: docs
+    cmds:
+      - bundle exec jekyll serve --livereload --host 0.0.0.0
+
+  build:
+    desc: "build jekyll site"
+    dir: docs
+    cmds:
+      - bundle exec jekyll build
+
   default:
     desc: "update version"
     cmds:
