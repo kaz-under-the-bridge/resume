@@ -1,0 +1,4 @@
+# 一時ファイル・ビルド生成物
+docs/tmp
+docs/_site
+node_modules

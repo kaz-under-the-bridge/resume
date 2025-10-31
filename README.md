@@ -22,6 +22,27 @@ cd /$project_root
 task install_tools
 ```
 
+## ローカルプレビュー
+
+### Dev Container を使う場合（推奨）
+
+1. Visual Studio Code で "Reopen in Container" を実行
+2. コンテナが起動したら自動で `bundle install` が実行される
+3. サーバーを起動:
+
+```bash
+task serve
+```
+
+1. <http://localhost:4000> にアクセス
+
+### 直接実行する場合
+
+```bash
+bundle install
+task serve
+```
+
 ## 編集したら
 
 ```bash
