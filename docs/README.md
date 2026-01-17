@@ -13,6 +13,8 @@ AI Coding Agent（Claude Code、Cursor等）を前提とした開発スタイル
 
 現在は株式会社タイミーでPFEグループマネージャーを務めつつ、副業の [合同会社Under The Bridge](https://under-the-bridge.co.jp/) で複数社を支援中です。
 
+[GitHub](https://github.com/kaz-under-the-bridge) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/kaz-under-the-bridge/)
+
 ## 🚀 直近1年の主な活動
 
 詳細は [ページ下部](https://kaz-under-the-bridge.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
@@ -157,7 +159,7 @@ CTO/技術責任者の意思決定をサポートします。
 
 ## 📋 ご支援の条件
 
-AI Coding Agentを前提とした開発スタイルにより、週15〜20時間の稼働でも数人分のアウトプットを実現できます。**「時間が短いから成果が出ない懸念」**ではなく、**「短時間で数人分のアウトプットを期待」**していただける働き方です。この手法は支援先チームにも伝授し、組織全体の生産性向上と投下コスト以上のリターンに貢献します。
+AI Coding Agentを前提とした開発スタイルにより、週15〜20時間の稼働でも数人分のアウトプットを実現できます。**「時間が短いから成果が出ない懸念」ではなく「短時間で数人分のアウトプットを期待」**していただける働き方です。この手法は支援先チームにも伝授し、組織全体の生産性向上と投下コスト以上のリターンに貢献します。
 
 | 項目 | 内容 |
 | :--- | :--- |
@@ -169,53 +171,9 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 ---
 
-# 👋 自己紹介
+# 🛠 スキル・技術スタック
 
-- 現在(2024/7/1より)株式会社タイミーのプラットフォームエンジニアリングチームに参画
-  - 同11/1よりチームリード（Group Manager）として任用
-  - 副業は2025年10月に法人化し、合同会社Under The Bridge代表として複数社への業務支援も実施
-- インフラ領域をメインとしたエンジニアです
-  - ネットワークエンジニア → サーバインフラエンジニア → クラウドエンジニア(SRE) → プラットフォームエンジニアリング・セキュリティ
-- "ヒト・モノ・カネ"の最大化を通じて企業活動に最大限の価値を提供します
-  - 普段はチームをマネジメントしながら自分も手を動かすプリンシパルエンジニアとしての動きを好みます
-- 現在は次の領域を業務の中心・得意分野にしています
-  - 概念
-    - クラウドネイティブ
-    - Site Reliability Engineering(SRE)
-    - プラットフォームエンジニアリング
-    - Observability
-    - AI駆動型インフラ最適化
-  - 技術/スキル/プロダクト
-    - クラウドセキュリティ/コンテナセキュリティ
-    - コンテナおよびKubernetes化
-    - Lift&Shift, クラウドマイグレーション
-    - Infrastructure as Code(IaC)
-  - AIコーディングエージェント活用
-    - Cursor + Claude/ChatGPT, GitHub Copilot, Devin, Gemini/NotebookLM
-    - AI活用によるインフラ運用効率化, 業務効率化
-    - プロンプトエンジニアリング実践
-  - 人/組織
-    - 採用・チームビルド
-    - コミュニティ活動を通じた組織ブランディング
-    - AI時代の組織文化醸成
-
-# 📊 プロフィール
-
-## 基本情報・SNSアカウント
-
-| 項目 | 内容 |
-| :--- | :--- |
-| 名前 | 橋本 和宏 - はしもと かずひろ |
-| 居住地 | 神奈川県 - 新宿まで電車で70分ほど |
-| 出身 | 関西 - 奈良県 |
-| 最終学歴 | 関西学院大学 文学部 心理学科 (2002学士卒) |
-| GitHub | [@kaz-under-the-bridge](https://github.com/kaz-under-the-bridge) |
-| Twitter | [@hshmtkzhr](https://twitter.com/hshmtkzhr) |
-| LinkedIn | [@kaz-under-the-bridge](https://www.linkedin.com/in/kaz-under-the-bridge/) |
-
-## 主なスキル
-
-### マネジメントスキル
+## マネジメントスキル
 
 - (過去)泥臭いPjM → (今)軽量かつ成果志向のリーダーシップスタイル
 - ヒト・モノ・カネの最大化 / TCO、ROIを重視した意思決定
@@ -234,7 +192,7 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
   - 中長期の技術投資計画（〜億円規模）
   - クラウドFinOpsの実践とコスト最適化
 
-### エンジニアリングスキル
+## エンジニアリングスキル
 
 - クラウド/インフラエンジニアリング
   - GCP（GCE, GKE, Cloud Run, Cloud Functions, IAP）
@@ -256,7 +214,7 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
   - ルーティング、L2/L3スイッチング
   - パケット解析・トラブルシューティング
 
-### AI活用スキル
+## AI活用スキル
 
 - AIコーディングエージェント
   - Cursor + Claude/GPTによるコード生成・リファクタリング・開発効率化
@@ -269,14 +227,6 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
   - 効果的なプロンプト設計手法
   - チーム向けAI活用ベストプラクティス策定
   - AI活用のためのワークフロー設計
-
-### その他
-
-- ブログ執筆
-  - [スクエニITエンジニアブログ](https://blog.jp.square-enix.com/iteng-blog/authors/kaz-hashimoto/)
-  - [タイミーProductTeamBlog](https://tech.timee.co.jp/)
-- 外部登壇
-  - 後述の活動・実績に記載
 
 ## 技術スタック
 
@@ -313,6 +263,8 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
   - New Relic
 - その他
   - Vyos
+
+---
 
 # 💼 職歴
 
