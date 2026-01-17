@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## プロジェクト概要
 
-職務経歴書をMarkdownで管理し、GitHub Pages（Jekyll）でWeb公開、PDF生成を行うリポジトリ。
+職務経歴書をMarkdownで管理し、GitHub Pages（Jekyll）でWeb公開、PDF生成するリポジトリ。
 
 ## コマンド
 
@@ -24,31 +24,33 @@ task serve
 
 ## ファイル構成
 
-- `docs/README.md` - 職務経歴書本体（編集対象）
-- `.textlintrc.json` - 日本語文章校正ルール
+- `docs/README.md` - 経歴書の本体（編集対象）
+- `.textlintrc.json` - 日本語の文章校正ルール
 - `.markdownlint.jsonc` - Markdownフォーマットルール
 - `pdf/config.js` - PDF出力設定
 
 ## Lint設定の特徴
 
 ### textlint
+
 - 日本語校正に特化（句読点、助詞重複、冗長表現など）
 - `max-kanji-continuous-len: 6`（漢字連続6文字まで）
 - `sentence-length: 150`（1文150文字まで）
 
 ### markdownlint
+
 - `MD013`: 行長250文字（テーブル対応）
 - `MD025`, `MD033`, `MD036`, `MD041`: 無効化（柔軟な見出し・テーブル記法のため）
 
 ## CI/CD
 
-- PR時に`docs/README.md`変更でLint実行
+- PR時に `docs/README.md` 変更でLint実行
 - PR時にPDFをドラフトリリースとして生成
 - mainマージでGitHub Pagesに自動デプロイ
 
 ## 筆者の傾向・思考スタイル
 
-ref: https://github.com/kaz-under-the-bridge/book_reading/blob/main/CLAUDE.md
+ref: [book_reading/CLAUDE.md](https://github.com/kaz-under-the-bridge/book_reading/blob/main/CLAUDE.md)
 
 ### 立場・経験
 
@@ -80,7 +82,7 @@ ref: https://github.com/kaz-under-the-bridge/book_reading/blob/main/CLAUDE.md
 
 ### 意思決定・アプローチ
 
-- **課題起点**: 「どのプロセス/ツールを導入すべきか」ではなく「最大の課題は何か」から逆算
+- **課題起点**:「どのプロセス/ツールを導入すべきか」ではなく「最大の課題は何か」から逆算
 - **「完璧」より「十分良い」**: 完璧なアーキテクチャーより、現在のビジネスニーズを満たす「十分良い」を選ぶ
 - **ワンウェイドア vs ツーウェイドア**: 可逆な決定は素早く、不可逆な決定は慎重に
 
@@ -88,5 +90,5 @@ ref: https://github.com/kaz-under-the-bridge/book_reading/blob/main/CLAUDE.md
 
 - **自身がボトルネックにならない**: 他者が自律的に判断できる仕組み・組織をつくる
 - **メンターとしての振る舞い**: 答えを与えるのではなく、質問を投げかけ、トレードオフを提示し、相手が自ら決定できるよう導く
-- **ビジネス理解**: 技術的判断は常にビジネス目標との整合性を意識。決算説明会資料や中期経営計画を読み、経営層の投資方針を把握
-- **現場感覚の維持**: 「象牙の塔のアーキテクト」にならない。コードや技術の現場に留まりつつ戦略的議論にも参加
+- **ビジネス理解**: 技術的判断は常にビジネス目標との整合性を意識。決算の説明会資料や中期経営計画を読み、経営層の投資方針を把握
+- **現場感覚の維持**:「象牙の塔のアーキテクト」にならない。コードや技術の現場に留まりつつ戦略的議論にも参加
