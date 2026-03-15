@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "textlint . && markdownlint *.md **/*.md",
-    "build:pdf": "PUPPETEER_ARGS='--no-sandbox' node ./node_modules/.bin/md-to-pdf docs/README.md --config-file ./pdf/config.js"
+    "build:pdf": "node ./node_modules/.bin/md-to-pdf docs/README.md --config-file ./pdf/config.js"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +18,7 @@
     "@proofdict/textlint-rule-proofdict": "^3.1.2",
     "@textlint-ja/textlint-rule-no-dropping-i": "^3.0.0",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
-    "markdownlint-cli": "^0.47.0",
+    "markdownlint-cli": "^0.48.0",
     "md-to-pdf": "^5.2.4",
     "textlint": "^15.2.2",
     "textlint-filter-rule-comments": "^1.2.2",
