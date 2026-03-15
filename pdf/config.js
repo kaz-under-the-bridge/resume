@@ -1,4 +1,7 @@
 module.exports = {
+  launch_options: {
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  },
   stylesheet: "./pdf/style.css",
   body_class: "markdown-body",
   marked_options: {

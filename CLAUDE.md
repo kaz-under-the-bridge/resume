@@ -15,11 +15,14 @@ npm install
 # Lint実行（textlint + markdownlint）
 npm run lint
 
-# PDF生成
+# PDF生成（md-to-pdf使用、puppeteerでA4レンダリング）
 npm run build:pdf
 
-# Jekyllローカルプレビュー（docs/配下で実行）
+# Jekyllローカルプレビュー（要: cd docs && bundle install を事前実行）
 task serve
+
+# Jekyllビルド（docs/配下で実行）
+task build
 ```
 
 ## ファイル構成
@@ -34,8 +37,9 @@ task serve
 ### textlint
 
 - 日本語校正に特化（句読点、助詞重複、冗長表現など）
-- `max-kanji-continuous-len: 6`（漢字連続6文字まで）
+- `max-kanji-continuous-len: 6`（漢字連続6文字まで、`allow: ["普通自動車第一種運転免許"]`）
 - `sentence-length: 150`（1文150文字まで）
+- `textlint-filter-rule-comments` 有効: `<!-- textlint-disable -->` / `<!-- textlint-enable -->` でインライン無効化可能
 
 ### markdownlint
 
@@ -45,7 +49,7 @@ task serve
 ## CI/CD
 
 - PR時に `docs/README.md` 変更でLint実行
-- PR時にPDFをドラフトリリースとして生成
+- PR時にPDFをドラフトリリースとして生成（Ubuntu 22.04固定: puppeteerのapparmor制約）
 - mainマージでGitHub Pagesに自動デプロイ
 
 ## 筆者の傾向・思考スタイル

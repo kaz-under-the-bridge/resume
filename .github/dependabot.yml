@@ -14,3 +14,10 @@ updates:
     labels:
       - "dependencies"
       - "github-actions"
+  - package-ecosystem: "bundler"
+    directory: "/docs"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "dependencies"
+      - "bundler"
